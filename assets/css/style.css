@@ -8,6 +8,10 @@ body {
     overflow: auto;
 }
 
+.contact_page {
+    margin-bottom: 0%;
+}
+
 header {
     color: white;
     background-color: #4aaaa5; 
