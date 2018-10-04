@@ -5,16 +5,25 @@ body {
     overflow: hidden;
 }
 
+.primary_background {
+    background-image: url(../images/old-paper-with-partial-paisly-design.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 header {
     color: white;
     background-color: #4aaaa5; 
-    /*float: left;*/
     padding: 2%;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     position: absolute;
     margin-left: 15%;
+    margin-bottom: 0%;
 }
 
 h1, h2 {
@@ -23,35 +32,58 @@ h1, h2 {
 
 .teal_font {
     color: #4aaaa5;
-    /*Fix this because it doesn't work*/
-    border-bottom: 5% grey;
+    border-bottom: 5px solid grey;
+    padding-bottom: 3%;
 }
 
 nav {
-    background-color: blue;
-    width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    background-color: #ffffff;
+    padding-top: 3.1%;
+    padding-bottom: 3.1%;
     box-shadow: 0px 3px 5px 2px grey;
+    margin-bottom: .3%;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+.navbuttona {
+    float: right;
+    padding-right: 1%;
+}
+
+.navbuttonb {
+    float: right;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+.navbuttonc {
+    float: right;
+    padding-right: 16%;
+    padding-left: 1%;
 }
 
 .professional_photo {
     float: left;
-}
-
-.primary_background {
-    background-image: url(https://media.gettyimages.com/photos/old-stained-paper-texture-picture-id516108818?b=1&k=6&m=516108818&s=612x612&w=0&h=V8qDPeAXMxIHusqr-uD8OYgY_KVi_elf63pMbM0c1q8=);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+    margin-top: .7%;
+    margin-right: 2%;
 }
 
 .primary_content {
     background-color: #ffffff;
-    margin: 5% 25% 5% 25%;
+    margin: 1% 15% 1% 15%;
     padding: 2.5% 2.5% 2.5% 2.5%;
     border-color: black;
     border-style: solid;
+}
+
+.about_blurb {
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .copyright {
@@ -59,9 +91,14 @@ nav {
     background-color: gray;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 5px;
+}
+
+.texture_link {
+    color: #ffffff;
+    font-size: 10px;
 }
