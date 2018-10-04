@@ -4,38 +4,46 @@
 <head>
    <meta charset = "UTF-8">
    <title>Contact Page</title>
+   <link rel = "stylesheet" href = "assets/css/style.css">
 </head>
 
-<body>
+<body class = "contact_page">
 
-  <h1>Brant Keener</h1>
+    <header>
+        <strong>Brant Keener</strong>
+    </header>
   
   <nav>
-        <a href = "index.html">About</a>
-        <a href = "portfolio.html">Portfolio</a>
-        <a href = "contact.html">Contact</a>
+        <a class = "navbuttonc" href = "contact.html">Contact</a>
+        <a class = "navbuttonb" href = "portfolio.html">Portfolio</a>
+        <a class = "navbuttona" href = "index.html">About</a>
   </nav>
 
-  <h2>Contact</h2>
+  <section class = "primary_background">
+    <section class = "primary_content">
+        <h2 class = "teal_font">Contact</h2>
 
-  <form>
-      Name:
-      <br>
-      <input type = "text" name = "contactname">
-      <br>
-      Email Address:
-      <br>
-      <input type = "text" name = "contactemail">
-      <br>
-      Message:
-      <br>
-      <input type = "text" name = "message">
-      <br>
-  </form>
+        <form>
+            Name:
+            <br>
+            <input class = "contact_name" type = "text" name = "contactname">
+            <br>
+            Email Address:
+            <br>
+            <input class = "contact_email" type = "text" name = "contactemail">
+            <br>
+            Message:
+            <br>
+            <input class = "message" type = "text" name = "message">
+            <br>
+        </form>
 
-  <button type = "button">Submit</button>
+        <button type = "button">Submit</button>
 
-  <p>
+    </section>
+</section>
+
+  <p class = "Copyright">
       Copyright&copy;
   </p>
 </body>
