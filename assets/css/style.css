@@ -164,10 +164,18 @@ a {
     width: 25%;
 }
 
-.message {
+.contact_message {
     width: 50%;
-    height: 25%;
-    padding: 3%;
+    height: 16.5%;
+}
+
+.name, .email, .message {
+    margin: 0%;
+    padding: 0%
+}
+
+.email, .message {
+    padding-top: 2%;
 }
 
 .about_blurb {
