@@ -104,7 +104,8 @@ a {
 
 /*make portfolio section different due to very different looks*/
 .primary_content_portfolio {
-    padding: 2.5% 2.5% 67% 2.5%;
+    display: inline-block;
+    width: 64%;
 }
 
 .primary_content_contact {
