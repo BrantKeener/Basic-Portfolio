@@ -109,7 +109,7 @@ a {
 }
 
 .primary_content_contact {
-    padding: 2.5% 2.5% 1.9% 2.5%;
+    padding: 2.5% 2.5% 2% 2.5%;
 }
 
 .links_on_left {
@@ -164,7 +164,7 @@ a {
 
 .contact_message {
     width: 50%;
-    height: 15%;
+    height: 115px;
 }
 
 .name, .email, .message {
